@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Docker
+*.log
+*.pid
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy, coverage, etc.
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.idea/
+
+# FastAPI auto-generated OpenAPI docs cache (if used)
+.openapi.json
+
+# Ignore test reports
+test-results/
+
+# __init__.py backups
+init_backup/
+
+# System files
+Thumbs.db
+
+# Git
+.git/
+
+# Ignore zipped builds (if you zip to upload)
+*.zip
